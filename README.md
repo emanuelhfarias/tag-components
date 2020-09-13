@@ -1,1 +1,3 @@
-# declarative-custom-elements
+# Declarative Custom Elements
+
+A proposal for a new element tag: `<component>`  
