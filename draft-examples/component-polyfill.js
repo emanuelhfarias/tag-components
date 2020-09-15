@@ -12,11 +12,13 @@ document.addEventListener("DOMContentLoaded", function(event) {
           constructor() {
             super()
             let template = component.getElementsByTagName('template')[0];
-            let templateContent = template.content;
 
-            const shadowRoot = this.attachShadow({mode: 'open'}).appendChild(templateContent.cloneNode(true));
+            if (template) {
+              let templateContent = template.content;
+              const shadowRoot = this.attachShadow({mode: 'open'}).appendChild(templateContent.cloneNode(true));
+            }
 
-            let script = component.getElementsByTagName('script')[0];
+            //let script = component.getElementsByTagName('script')[0];
           }
         }
       );
