@@ -2,31 +2,23 @@
 
 (function() {
 
-  function baseHtmlElementClass (component) {
-    return class extends HTMLElement {
-      constructor(...args) {
-        const self = super(...args);
-        let template = component.getElementsByTagName('template')[0];
+  document.addEventListener("DOMContentLoaded", function(event) {
+    let components = document.getElementsByTagName("component");
 
-        // this.rootElement = template.content.firstElementChild
-        this.extends = component.getAttribute("extends");
+    Array.from(components).forEach((component) => {
+       register(component)
+    })
+  });
 
-        if (template) {
-          let templateContent = template.content;
-          const shadowRoot = this.attachShadow({mode: 'open'}).appendChild(templateContent.cloneNode(true));
-        }
- 
-        //let script = component.getElementsByTagName('script')[0];
-        return self;
-      }
+  function register(component) {
+    registerTemplate(component);
+    registerRootElement(component);
+    registerStyle(component);
 
-      connectedCallback() {
-        let rootElement = this.shadowRoot.firstElementChild
+   let componentName = component.getAttribute("name");
 
-        Array.from(this.attributes).forEach((attribute) => {
-          rootElement.setAttribute(attribute.name, attribute.value);
-        })
-      }
+    if (componentName) {
+      customElements.define(componentName, baseHtmlElementClass(component));
     }
   }
 
@@ -60,24 +52,31 @@
     }
   }
 
-  function register(component) {
-    registerTemplate(component);
-    registerRootElement(component);
-    registerStyle(component);
+  function baseHtmlElementClass (component) {
+    return class extends HTMLElement {
+      constructor(...args) {
+        const self = super(...args);
+        let template = component.getElementsByTagName('template')[0];
+        if (template) {
+          this.shadowRoot = this.attachShadow({mode: 'open'}).appendChild(template.content.cloneNode(true));
+        }
+ 
+        //let script = component.getElementsByTagName('script')[0];
+        return self;
+      }
 
-   let componentName = component.getAttribute("name");
+      connectedCallback() {
+        propagateAttributes();
+      }
 
-    if (componentName) {
-      customElements.define(componentName, baseHtmlElementClass(component));
+      propagateAttributes() {
+        let rootElement = this.shadowRoot.firstElementChild
+
+        Array.from(this.attributes).forEach((attribute) => {
+          rootElement.setAttribute(attribute.name, attribute.value);
+        })
+      }
     }
   }
-
-  document.addEventListener("DOMContentLoaded", function(event) {
-    let components = document.getElementsByTagName("component");
-
-    Array.from(components).forEach((component) => {
-       register(component)
-    })
-  });
 
 })();
