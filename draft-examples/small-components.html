@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="data:image/png;base64,iVBORw0KGgo="> <!-- Fake favicon -->
+  <title>Defining a Custom Element - the new way</title>
+  <script src="component-polyfill.js"></script>
+</head>
+<body>
+
+  <component name="my-alert3" extends="p">
+    <template>
+      <p>
+        <slot />
+      </p>
+    </template>
+
+    <style>
+      p { color: red; background-color: black}
+    </style>
+  </component>
+
+  <my-alert3>Hello World</my-alert3>
+
+  <template id="my-paragraph">
+    <p>
+      <slot />
+    </p>
+    <style>
+      p { color:blue; }
+    </style>
+  </template>
+
+  <script>
+    customElements.define('my-paragraph',
+      class extends HTMLElement {
+        constructor() {
+          super();
+          let template = document.getElementById('my-paragraph');
+          let templateContent = template.content;
+
+          const shadowRoot = this.attachShadow({mode: 'open'}).appendChild(templateContent.cloneNode(true));
+        }
+      }
+    );
+  </script>
+
+  <my-paragraph>My paragraph</my-paragraph>
+
+  <p>Hi from deafult p</p>
+
+</body>
+</html>
