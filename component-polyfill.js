@@ -58,7 +58,8 @@
         const self = super(...args);
         let template = component.getElementsByTagName('template')[0];
         if (template) {
-          this.shadowRoot = this.attachShadow({mode: 'open'}).appendChild(template.content.cloneNode(true));
+          let templateContent = template.content;
+          const shadowRoot = this.attachShadow({mode: 'open'}).appendChild(templateContent.cloneNode(true));
         }
  
         //let script = component.getElementsByTagName('script')[0];
@@ -66,7 +67,7 @@
       }
 
       connectedCallback() {
-        propagateAttributes();
+        this.propagateAttributes()
       }
 
       propagateAttributes() {
