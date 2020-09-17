@@ -1,0 +1,1 @@
+test('nesting components should not inherit style', () => {});
