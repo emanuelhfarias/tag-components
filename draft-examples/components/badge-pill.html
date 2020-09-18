@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Badge Pill</title>
+  <link rel="icon" href="data:image/png;base64,iVBORw0KGgo="> <!-- Fake favicon -->
+  <script src="../../component-polyfill.js"></script>
+  <style>
+    body {
+      max-width: 650px;
+      margin: 0 auto;
+      margin-top: 5rem;
+    }
+  </style>
+</head>
+<body>
+
+  <component name="badge-pill" extends="span">
+    <template>
+      <span class="badge badge-pill">
+        <slot />
+      </span>
+    </template>
+
+    <style>
+      span {
+        color: #fff;
+        font-family: Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+      }
+      .badge {
+        display: inline-block;
+        padding: .25em .4em;
+        font-size: 75%;
+        font-weight: 700;
+        line-height: 1;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: baseline;
+      }
+      .badge-pill {
+        padding-top: .2em;
+        padding-bottom: .2em;
+        padding-right: .6em;
+        padding-left: .6em;
+        border-radius: 10rem;
+      }
+      span[primary] { background-color: #007bff; }
+      span[secondary] { background-color: #6c757d; }
+      span[success] { background-color: #28a745; }
+      span[danger] { background-color: #dc3545; }
+      span[warning] { background-color: #ffc107; }
+      span[info] { background-color: #17a2b8;}
+      span[light] { background-color: #f8f9fa; color: #212529; }
+      span[dark] { background-color: #343a40; color: #fff; }
+    </style>
+  </component>
+
+  <badge-pill primary>Primary</badge-pill>
+  <badge-pill secondary>Secondary</badge-pill>
+  <badge-pill success>Success</badge-pill>
+  <badge-pill danger>Danger</badge-pill>
+  <badge-pill warning>Warning</badge-pill>
+  <badge-pill info>Info</badge-pill>
+  <badge-pill light>Light</badge-pill>
+  <badge-pill dark>Dark</badge-pill>
+
+</body>
+</html>
