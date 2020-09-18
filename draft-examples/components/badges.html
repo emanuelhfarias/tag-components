@@ -16,19 +16,9 @@
 </head>
 <body>
 
-  <component name="badge-pill" extends="span">
-    <template>
-      <span class="badge badge-pill">
-        <slot />
-      </span>
-    </template>
-
+  <component name="c-badge" extends="span">
     <style>
       span {
-        color: #fff;
-        font-family: Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-      }
-      .badge {
         display: inline-block;
         padding: .25em .4em;
         font-size: 75%;
@@ -38,21 +28,27 @@
         white-space: nowrap;
         vertical-align: baseline;
       }
-      .badge-pill {
-        padding-top: .2em;
+    </style>
+  </component>
+
+  <component name="badge-pill" extends="c-badge">
+    <style>
+      c-badge {
+        color: #fff;
+        font-family: Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
         padding-bottom: .2em;
         padding-right: .6em;
         padding-left: .6em;
         border-radius: 10rem;
       }
-      span[primary] { background-color: #007bff; }
-      span[secondary] { background-color: #6c757d; }
-      span[success] { background-color: #28a745; }
-      span[danger] { background-color: #dc3545; }
-      span[warning] { background-color: #ffc107; color: #212529; }
-      span[info] { background-color: #17a2b8;}
-      span[light] { background-color: #f8f9fa; color: #212529; }
-      span[dark] { background-color: #343a40; color: #fff; }
+      c-badge[primary] { background-color: #007bff; }
+      c-badge[secondary] { background-color: #6c757d; }
+      c-badge[success] { background-color: #28a745; }
+      c-badge[danger] { background-color: #dc3545; }
+      c-badge[warning] { background-color: #ffc107; color: #212529; }
+      c-badge[info] { background-color: #17a2b8;}
+      c-badge[light] { background-color: #f8f9fa; color: #212529; }
+      c-badge[dark] { background-color: #343a40; color: #fff; }
     </style>
   </component>
 
