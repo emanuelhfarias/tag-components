@@ -4,7 +4,7 @@ module.exports = {
     'proposal',
     'propagating-attributes',
     'inheritance',
-    'proposal',
+    'naming-components',
     {
       type: "category",
       label: "Community Components",

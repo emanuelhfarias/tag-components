@@ -7,6 +7,7 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'tag-components',
   projectName: 'tag-components',
+  scripts: [],
   themeConfig: {
     colorMode: {
       disableSwitch: true
@@ -27,7 +28,7 @@ module.exports = {
     },
     footer: {
       style: 'dark',
-      copyright: `See project on GitHub`,
+      copyright: `See project on <a href="https://github.com/emanuelhfarias/declarative-custom-elements" target="_blank">GitHub</a>`,
     },
   },
   presets: [

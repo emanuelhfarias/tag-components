@@ -24,6 +24,6 @@ Image you can define a web component like this:
 ```
 
 ### Result:
-...
+<awesome-alert>awesome box!</awesome-alert>
 
 Awesome!
