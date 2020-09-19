@@ -15,6 +15,17 @@
   --ifm-color-primary-lighter: rgb(102, 212, 189);
   --ifm-color-primary-lightest: rgb(146, 224, 208);
   --ifm-code-font-size: 95%;
+  --ifm-navbar-height: 4.0rem;
+}
+
+body {
+  max-width: 1366px;
+  margin: 0 auto !important;
+}
+
+.navbar__logo {
+  height: auto;
+  width: 100%;
 }
 
 .docusaurus-highlight-code-line {

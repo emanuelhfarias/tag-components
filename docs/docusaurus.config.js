@@ -1,6 +1,6 @@
 module.exports = {
   title: 'Tag Components',
-  tagline: 'aa',
+  tagline: 'Experimental polyfill for the component tag',
   url: 'https://github.com/emanuelhfarias/declarative-custom-elements',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -8,6 +8,9 @@ module.exports = {
   organizationName: 'tag-components',
   projectName: 'tag-components',
   themeConfig: {
+    colorMode: {
+      disableSwitch: true
+    },
     navbar: {
       logo: {
         alt: 'Tag Components',

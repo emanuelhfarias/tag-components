@@ -7,9 +7,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="128.75925mm"
-   height="17.037504mm"
-   viewBox="0 0 128.75924 17.037504"
+   width="76.312553mm"
+   height="9.8492765mm"
+   viewBox="0 0 76.312549 9.8492764"
    version="1.1"
    id="svg8"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
@@ -23,9 +23,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="316.16561"
-     inkscape:cy="18.674818"
+     inkscape:zoom="2.8"
+     inkscape:cx="125.25538"
+     inkscape:cy="1.5824639"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -34,7 +34,8 @@
      inkscape:window-height="963"
      inkscape:window-x="0"
      inkscape:window-y="28"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     inkscape:lockguides="true" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -51,64 +52,64 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-0.93215175,5.8189623)">
+     transform="translate(-4.4499774,2.7872148)">
     <g
        aria-label="component"
        id="text12"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.7556px;line-height:1.25;font-family:'Museo Sans Rounded';-inkscape-font-specification:'Museo Sans Rounded';fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;line-height:1.25;font-family:'Museo Sans Rounded';-inkscape-font-specification:'Museo Sans Rounded';fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
       <path
-         d="m 12.565345,2.097244 c 0,2.9238288 2.133604,5.2747452 5.472301,5.2747452 1.738493,0 2.96334,-0.7112016 3.575763,-1.1655804 0.395112,-0.2765784 0.454379,-0.6716904 0.217312,-1.1063136 L 21.633165,4.7247388 C 21.376342,4.2506044 21.000986,4.1913376 20.507096,4.467916 c -0.474135,0.3358452 -1.264359,0.7704684 -2.252139,0.7704684 -1.936048,0 -3.14114,-1.4619144 -3.14114,-3.160896 0,-1.71873716 1.205092,-3.1213848 3.062118,-3.1213848 0.869246,0 1.540937,0.33584524 1.955804,0.61242364 0.474135,0.2370672 0.80998,0.2370672 1.106314,-0.2173116 l 0.256823,-0.39511204 c 0.276578,-0.4346232 0.256823,-0.8494908 -0.158045,-1.1260692 -0.592668,-0.4148676 -1.679226,-1.0075356 -3.299185,-1.0075356 -3.338697,0 -5.472301,2.41018324 -5.472301,5.2747452 z"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.7556px;font-family:'Museo Sans Rounded';-inkscape-font-specification:'Museo Sans Rounded';fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="path839" />
+         d="m 12.307021,1.7931119 c 0,1.6707573 1.219201,3.0141364 3.127025,3.0141364 0.993423,0 1.693335,-0.4064004 2.043291,-0.6660451 0.225778,-0.1580446 0.259645,-0.3838226 0.124178,-0.6321784 L 17.488626,3.2945357 C 17.34187,3.0236021 17.127381,2.9897354 16.845158,3.14778 c -0.270933,0.1919113 -0.722489,0.4402671 -1.286934,0.4402671 -1.106312,0 -1.794935,-0.8353786 -1.794935,-1.8062241 0,-0.98213429 0.688623,-1.78364622 1.749779,-1.78364622 0.496712,0 0.880534,0.19191131 1.117601,0.34995592 0.270934,0.1354668 0.462845,0.1354668 0.632179,-0.12417791 l 0.146756,-0.22577801 c 0.158044,-0.2483558 0.146755,-0.48542271 -0.09031,-0.64346732 -0.338667,-0.2370669 -0.959556,-0.57573396 -1.885246,-0.57573396 -1.907824,0 -3.127025,1.37724589 -3.127025,3.0141364 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:'Museo Sans Rounded';-inkscape-font-specification:'Museo Sans Rounded';fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path836" />
       <path
-         d="m 22.917245,2.097244 c 0,3.1016292 2.46945,5.2747452 5.531568,5.2747452 3.062118,0 5.551323,-2.173116 5.551323,-5.2747452 0,-3.08187356 -2.489205,-5.2747452 -5.551323,-5.2747452 -3.062118,0 -5.531568,2.19287164 -5.531568,5.2747452 z m 2.548472,0 c 0,-1.85702636 1.343381,-3.1411404 2.983096,-3.1411404 1.639714,0 3.002851,1.28411404 3.002851,3.1411404 0,1.876782 -1.363137,3.1411404 -3.002851,3.1411404 -1.639715,0 -2.983096,-1.2643584 -2.983096,-3.1411404 z"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.7556px;font-family:'Museo Sans Rounded';-inkscape-font-specification:'Museo Sans Rounded';fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="path841" />
+         d="m 18.222385,1.7931119 c 0,1.7723574 1.411112,3.0141364 3.160892,3.0141364 1.749779,0 3.172181,-1.241779 3.172181,-3.0141364 0,-1.76106841 -1.422402,-3.0141364 -3.172181,-3.0141364 -1.74978,0 -3.160892,1.25306799 -3.160892,3.0141364 z m 1.456268,0 c 0,-1.06115659 0.767645,-1.79493512 1.704624,-1.79493512 0.936979,0 1.715913,0.73377853 1.715913,1.79493512 0,1.0724456 -0.778934,1.7949352 -1.715913,1.7949352 -0.936979,0 -1.704624,-0.7224896 -1.704624,-1.7949352 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:'Museo Sans Rounded';-inkscape-font-specification:'Museo Sans Rounded';fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path838" />
       <path
-         d="m 35.837401,6.3051868 c 0,0.5531568 0.276578,0.8297352 0.80998,0.8297352 h 0.869246 c 0.533401,0 0.80998,-0.2765784 0.80998,-0.8297352 V 2.6108896 c 0,-1.67922596 0.829735,-3.49674116 2.607739,-3.49674116 1.185336,0 1.343381,0.9285132 1.343381,2.01507116 v 5.1759672 c 0,0.5531568 0.296334,0.8297352 0.829735,0.8297352 h 0.869246 c 0.533401,0 0.80998,-0.2765784 0.80998,-0.8297352 V 2.6108896 c 0,-1.75824836 0.869246,-3.49674116 2.568228,-3.49674116 1.16558,0 1.382892,0.8692464 1.382892,2.01507116 v 5.1759672 c 0,0.5531568 0.276578,0.8297352 0.829735,0.8297352 h 0.849491 c 0.533401,0 0.829735,-0.2765784 0.829735,-0.8297352 V 0.65508524 c 0,-2.64725044 -1.205092,-3.83258644 -3.299185,-3.83258644 -1.580448,0 -2.904073,1.0272912 -3.437475,2.074338 h -0.03951 c -0.414867,-1.3631364 -1.422403,-2.074338 -2.943584,-2.074338 -1.580448,0 -2.805295,1.1458248 -3.299185,2.1336048 h -0.03951 c 0,0 0.03951,-0.2370672 0.03951,-0.4543788 v -0.6124236 c 0,-0.5334012 -0.276579,-0.8297352 -0.80998,-0.8297352 h -0.770468 c -0.533402,0 -0.80998,0.296334 -0.80998,0.8297352 z"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.7556px;font-family:'Museo Sans Rounded';-inkscape-font-specification:'Museo Sans Rounded';fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="path843" />
+         d="m 25.605323,4.1976477 c 0,0.3160892 0.158044,0.4741338 0.462845,0.4741338 h 0.496711 c 0.304801,0 0.462845,-0.1580446 0.462845,-0.4741338 V 2.0866234 c 0,-0.9595566 0.474134,-1.99813541 1.490135,-1.99813541 0.677334,0 0.767645,0.53057832 0.767645,1.15146781 v 2.9576919 c 0,0.3160892 0.169334,0.4741338 0.474134,0.4741338 h 0.496712 c 0.3048,0 0.462845,-0.1580446 0.462845,-0.4741338 V 2.0866234 c 0,-1.0047122 0.496711,-1.99813541 1.467557,-1.99813541 0.666045,0 0.790223,0.49671161 0.790223,1.15146781 v 2.9576919 c 0,0.3160892 0.158044,0.4741338 0.474134,0.4741338 h 0.485422 c 0.304801,0 0.474134,-0.1580446 0.474134,-0.4741338 V 0.96902222 c 0,-1.51271265 -0.688623,-2.19004672 -1.885246,-2.19004672 -0.903112,0 -1.659469,0.58702286 -1.964269,1.18533458 h -0.02258 c -0.237067,-0.77893412 -0.812801,-1.18533458 -1.682046,-1.18533458 -0.903112,0 -1.603024,0.65475627 -1.885246,1.21920128 h -0.02258 c 0,0 0.02258,-0.1354668 0.02258,-0.2596447 v -0.34995592 c 0,-0.30480031 -0.158045,-0.47413386 -0.462845,-0.47413386 h -0.440267 c -0.304801,0 -0.462845,0.16933355 -0.462845,0.47413386 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:'Museo Sans Rounded';-inkscape-font-specification:'Museo Sans Rounded';fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path840" />
       <path
-         d="m 53.577906,10.256307 c 0,0.553157 0.296334,0.829735 0.829735,0.829735 h 0.849491 c 0.553157,0 0.829735,-0.276578 0.829735,-0.829735 V 6.7002988 c 0,-0.5136456 -0.05927,-0.8692464 -0.05927,-0.8692464 h 0.03951 c 0,0 0.809979,1.5409368 2.904073,1.5409368 2.64725,0 4.62281,-2.074338 4.62281,-5.2747452 0,-3.1213848 -1.758248,-5.2747452 -4.484521,-5.2747452 -2.350916,0 -3.239918,1.778004 -3.239918,1.778004 h -0.03951 c 0,0 0.01976,-0.1778004 0.01976,-0.395112 V -2.248988 c 0,-0.395112 -0.276578,-0.691446 -0.809979,-0.691446 h -0.63218 c -0.533401,0 -0.829735,0.296334 -0.829735,0.8297352 z m 2.429939,-8.0997962 c 0,-2.23238276 1.244603,-3.1806516 2.548472,-3.1806516 1.461915,0 2.489206,1.24460284 2.489206,3.160896 0,1.9953156 -1.145825,3.1213848 -2.528717,3.1213848 -1.639715,0 -2.508961,-1.5409368 -2.508961,-3.1016292 z"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.7556px;font-family:'Museo Sans Rounded';-inkscape-font-specification:'Museo Sans Rounded';fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="path845" />
+         d="m 35.742742,6.4554278 c 0,0.3160892 0.169333,0.4741338 0.474133,0.4741338 h 0.485423 c 0.316089,0 0.474134,-0.1580446 0.474134,-0.4741338 V 4.4234257 c 0,-0.2935114 -0.03387,-0.4967116 -0.03387,-0.4967116 h 0.02258 c 0,0 0.462845,0.8805342 1.659468,0.8805342 1.512713,0 2.641603,-1.1853345 2.641603,-3.0141364 0,-1.78364622 -1.004712,-3.0141364 -2.56258,-3.0141364 -1.343379,0 -1.85138,1.01600108 -1.85138,1.01600108 h -0.02258 c 0,0 0.01129,-0.10160011 0.01129,-0.22577801 v -0.25964471 c 0,-0.22577801 -0.158044,-0.39511156 -0.462845,-0.39511156 h -0.361245 c -0.3048,0 -0.474133,0.16933355 -0.474133,0.47413386 z m 1.388534,-4.6284492 c 0,-1.2756457 0.711201,-1.81751292 1.456268,-1.81751292 0.835379,0 1.422402,0.71120073 1.422402,1.80622402 0,1.140179 -0.654756,1.7836463 -1.444979,1.7836463 -0.936979,0 -1.433691,-0.8805342 -1.433691,-1.7723574 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:'Museo Sans Rounded';-inkscape-font-specification:'Museo Sans Rounded';fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path842" />
       <path
-         d="m 64.858329,2.097244 c 0,3.1016292 2.46945,5.2747452 5.531568,5.2747452 3.062118,0 5.551323,-2.173116 5.551323,-5.2747452 0,-3.08187356 -2.489205,-5.2747452 -5.551323,-5.2747452 -3.062118,0 -5.531568,2.19287164 -5.531568,5.2747452 z m 2.548472,0 c 0,-1.85702636 1.343381,-3.1411404 2.983096,-3.1411404 1.639714,0 3.002851,1.28411404 3.002851,3.1411404 0,1.876782 -1.363137,3.1411404 -3.002851,3.1411404 -1.639715,0 -2.983096,-1.2643584 -2.983096,-3.1411404 z"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.7556px;font-family:'Museo Sans Rounded';-inkscape-font-specification:'Museo Sans Rounded';fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="path847" />
+         d="m 42.188689,1.7931119 c 0,1.7723574 1.411112,3.0141364 3.160892,3.0141364 1.749779,0 3.172181,-1.241779 3.172181,-3.0141364 0,-1.76106841 -1.422402,-3.0141364 -3.172181,-3.0141364 -1.74978,0 -3.160892,1.25306799 -3.160892,3.0141364 z m 1.456268,0 c 0,-1.06115659 0.767645,-1.79493512 1.704624,-1.79493512 0.936978,0 1.715913,0.73377853 1.715913,1.79493512 0,1.0724456 -0.778935,1.7949352 -1.715913,1.7949352 -0.936979,0 -1.704624,-0.7224896 -1.704624,-1.7949352 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:'Museo Sans Rounded';-inkscape-font-specification:'Museo Sans Rounded';fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path844" />
       <path
-         d="m 77.778487,6.3051868 c 0,0.5531568 0.276578,0.8297352 0.809979,0.8297352 h 0.869247 c 0.533401,0 0.809979,-0.2765784 0.809979,-0.8297352 V 2.4133336 c 0,-1.81751516 1.12607,-3.29918516 2.904074,-3.29918516 1.264358,0 1.580448,0.8297352 1.580448,2.05458236 v 5.136456 c 0,0.5531568 0.296334,0.8297352 0.829735,0.8297352 h 0.849491 c 0.553156,0 0.829735,-0.2765784 0.829735,-0.8297352 V 0.65508524 c 0,-2.66700604 -1.284114,-3.83258644 -3.516497,-3.83258644 -2.034827,0 -3.14114,1.284114 -3.575764,2.1336048 h -0.03951 c 0,0 0.03951,-0.2370672 0.03951,-0.4543788 v -0.6124236 c 0,-0.5334012 -0.276578,-0.8297352 -0.809979,-0.8297352 h -0.770469 c -0.533401,0 -0.809979,0.296334 -0.809979,0.8297352 z"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.7556px;font-family:'Museo Sans Rounded';-inkscape-font-specification:'Museo Sans Rounded';fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="path849" />
+         d="m 49.571628,4.1976477 c 0,0.3160892 0.158044,0.4741338 0.462845,0.4741338 h 0.496711 c 0.3048,0 0.462845,-0.1580446 0.462845,-0.4741338 V 1.9737344 c 0,-1.03857888 0.643467,-1.88524641 1.659468,-1.88524641 0.72249,0 0.903112,0.47413381 0.903112,1.17404561 v 2.9351141 c 0,0.3160892 0.169334,0.4741338 0.474134,0.4741338 h 0.485423 c 0.316089,0 0.474134,-0.1580446 0.474134,-0.4741338 V 0.96902222 c 0,-1.52400155 -0.733779,-2.19004672 -2.009424,-2.19004672 -1.162757,0 -1.794936,0.73377857 -2.043291,1.21920128 h -0.02258 c 0,0 0.02258,-0.1354668 0.02258,-0.2596447 v -0.34995592 c 0,-0.30480031 -0.158045,-0.47413386 -0.462845,-0.47413386 h -0.440267 c -0.304801,0 -0.462845,0.16933355 -0.462845,0.47413386 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:'Museo Sans Rounded';-inkscape-font-specification:'Museo Sans Rounded';fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path846" />
       <path
-         d="m 88.999651,2.097244 c 0,2.864562 2.074338,5.2747452 5.413034,5.2747452 1.580448,0 2.765784,-0.592668 3.417719,-1.0075356 C 98.265027,6.1076308 98.34405,5.7125188 98.106982,5.25814 L 97.869915,4.863028 C 97.613092,4.4086492 97.257492,4.3493824 96.763602,4.5864496 c -0.474135,0.296334 -1.244603,0.6519348 -2.173116,0.6519348 -1.521182,0 -2.864562,-0.9482688 -3.022607,-2.765784 h 6.143991 c 0.49389,0 0.869247,-0.4148676 0.869247,-0.8494908 0,-2.765784 -1.600204,-4.8006108 -4.464766,-4.8006108 -3.022607,0 -5.1167,2.173116 -5.1167,5.2747452 z m 2.627495,-1.14582476 c 0.237067,-1.3433808 1.145824,-2.23238284 2.429938,-2.23238284 1.145825,0 1.995316,0.82973524 2.034827,2.23238284 z"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.7556px;font-family:'Museo Sans Rounded';-inkscape-font-specification:'Museo Sans Rounded';fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="path851" />
+         d="m 55.983711,1.7931119 c 0,1.6368906 1.185334,3.0141364 3.093159,3.0141364 0.903112,0 1.580446,-0.338667 1.952979,-0.5757339 0.248356,-0.1467557 0.293512,-0.3725337 0.158045,-0.6321784 L 61.052427,3.373558 C 60.905671,3.1139133 60.702471,3.0800466 60.420249,3.2155134 60.149315,3.3848469 59.709048,3.5880471 59.17847,3.5880471 c -0.869246,0 -1.636891,-0.5418672 -1.727202,-1.580446 h 3.510848 c 0.282222,0 0.496712,-0.237067 0.496712,-0.4854228 0,-1.58044602 -0.914401,-2.7432028 -2.551292,-2.7432028 -1.727202,0 -2.923825,1.24177909 -2.923825,3.0141364 z m 1.501424,-0.6547562 c 0.135466,-0.7676452 0.654756,-1.27564572 1.388534,-1.27564572 0.654757,0 1.140179,0.47413382 1.162757,1.27564572 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:'Museo Sans Rounded';-inkscape-font-specification:'Museo Sans Rounded';fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path848" />
       <path
-         d="m 100.39862,6.3051868 c 0,0.5531568 0.27658,0.8297352 0.80998,0.8297352 h 0.86925 c 0.5334,0 0.80997,-0.2765784 0.80997,-0.8297352 V 2.4133336 c 0,-1.81751516 1.12607,-3.29918516 2.90408,-3.29918516 1.26436,0 1.58045,0.8297352 1.58045,2.05458236 v 5.136456 c 0,0.5531568 0.29633,0.8297352 0.82973,0.8297352 h 0.84949 c 0.55316,0 0.82974,-0.2765784 0.82974,-0.8297352 V 0.65508524 c 0,-2.66700604 -1.28412,-3.83258644 -3.5165,-3.83258644 -2.03483,0 -3.14114,1.284114 -3.57576,2.1336048 h -0.0395 c 0,0 0.0395,-0.2370672 0.0395,-0.4543788 v -0.6124236 c 0,-0.5334012 -0.27658,-0.8297352 -0.80998,-0.8297352 h -0.77047 c -0.5334,0 -0.80998,0.296334 -0.80998,0.8297352 z"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.7556px;font-family:'Museo Sans Rounded';-inkscape-font-specification:'Museo Sans Rounded';fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="path853" />
+         d="m 62.497401,4.1976477 c 0,0.3160892 0.158045,0.4741338 0.462845,0.4741338 h 0.496712 c 0.3048,0 0.462845,-0.1580446 0.462845,-0.4741338 V 1.9737344 c 0,-1.03857888 0.643467,-1.88524641 1.659468,-1.88524641 0.72249,0 0.903112,0.47413381 0.903112,1.17404561 v 2.9351141 c 0,0.3160892 0.169334,0.4741338 0.474134,0.4741338 h 0.485423 c 0.316089,0 0.474133,-0.1580446 0.474133,-0.4741338 V 0.96902222 c 0,-1.52400155 -0.733778,-2.19004672 -2.009424,-2.19004672 -1.162757,0 -1.794935,0.73377857 -2.043291,1.21920128 h -0.02258 c 0,0 0.02258,-0.1354668 0.02258,-0.2596447 v -0.34995592 c 0,-0.30480031 -0.158044,-0.47413386 -0.462845,-0.47413386 h -0.440267 c -0.3048,0 -0.462845,0.16933355 -0.462845,0.47413386 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:'Museo Sans Rounded';-inkscape-font-specification:'Museo Sans Rounded';fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path850" />
       <path
-         d="m 112.68656,3.5394028 c 0,2.7262728 2.13361,3.6942972 3.93137,3.6942972 0.69144,0 1.02729,-0.2370672 1.02729,-0.8297352 V 5.7915412 c 0,-0.5531568 -0.21731,-0.7507128 -0.82974,-0.8099796 -0.69144,-0.079022 -1.61996,-0.3753564 -1.61996,-1.876782 v -3.91160876 h 1.48167 c 0.51365,0 0.80998,-0.27657844 0.80998,-0.82973524 v -0.3358452 c 0,-0.5334012 -0.29633,-0.8297352 -0.82973,-0.8297352 h -1.46192 v -2.0545824 c 0,-0.5334012 -0.29633,-0.8297352 -0.82973,-0.8297352 h -0.79022 c -0.53341,0 -0.82974,0.296334 -0.82974,0.8297352 v 2.0545824 h -0.57291 c -0.55316,0 -0.82974,0.296334 -0.82974,0.8297352 v 0.3358452 c 0,0.5531568 0.27658,0.82973524 0.80998,0.82973524 h 0.5334 z"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.7556px;font-family:'Museo Sans Rounded';-inkscape-font-specification:'Museo Sans Rounded';fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="path855" />
+         d="m 69.519076,2.6172017 c 0,1.5578682 1.219201,2.1110243 2.246491,2.1110243 0.395112,0 0.587023,-0.1354668 0.587023,-0.4741338 V 3.9041363 c 0,-0.3160892 -0.124178,-0.4289782 -0.474134,-0.4628449 -0.395111,-0.045156 -0.92569,-0.2144891 -0.92569,-1.0724455 V 0.13364359 h 0.846668 c 0.293511,0 0.462845,-0.15804461 0.462845,-0.47413382 v -0.1919113 c 0,-0.30480031 -0.169334,-0.47413377 -0.474134,-0.47413377 H 70.952766 V -2.180581 c 0,-0.3048003 -0.169333,-0.4741338 -0.474134,-0.4741338 h -0.451556 c -0.3048,0 -0.474133,0.1693335 -0.474133,0.4741338 v 1.1740457 h -0.327378 c -0.31609,0 -0.474134,0.16933346 -0.474134,0.47413377 v 0.1919113 c 0,0.31608921 0.158044,0.47413382 0.462845,0.47413382 h 0.3048 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:'Museo Sans Rounded';-inkscape-font-specification:'Museo Sans Rounded';fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path852" />
     </g>
     <g
        aria-label="&lt;"
        id="text836"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.7556px;line-height:1.25;font-family:'Museo Sans Rounded';-inkscape-font-specification:'Museo Sans Rounded';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583">
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:'Museo Sans Rounded';-inkscape-font-specification:'Museo Sans Rounded';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583">
       <path
-         d="m 1.5445753,2.6156957 7.9219956,3.5362524 c 0.5729121,0.2370672 0.9680241,0 0.9680241,-0.6321792 V 5.0653901 c 0,-0.4741344 -0.217311,-0.7704684 -0.6519345,-0.9482688 L 3.5794021,1.5488933 v -0.039511 l 6.2032584,-2.568228 c 0.4346235,-0.1778004 0.6519345,-0.4741344 0.6519345,-0.9482688 v -0.4543788 c 0,-0.6124236 -0.395112,-0.8692464 -0.9680241,-0.6124236 L 1.5445753,0.44257968 c -0.4346232,0.197556 -0.61242355,0.49389 -0.61242355,0.96802442 v 0.2370672 c 0,0.49389 0.17780035,0.790224 0.61242355,0.9680244 z"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.7556px;font-family:'Museo Sans Rounded';-inkscape-font-specification:'Museo Sans Rounded';stroke-width:0.264583;fill:#af40b8;fill-opacity:1"
-         id="path836" />
+         d="m 4.8436774,2.3901783 5.0926999,2.2733 c 0.3682997,0.1524 0.6222997,0 0.6222997,-0.4064 v -0.2921 c 0,-0.3048 -0.1397,-0.4953 -0.4191,-0.6096 l -3.9877996,-1.651 v -0.0254 L 10.139577,0.02797837 c 0.2794,-0.1143 0.4191,-0.3048 0.4191,-0.60959999 v -0.2921 c 0,-0.39369998 -0.254,-0.55879998 -0.6222997,-0.39369998 L 4.8436774,0.99317835 c -0.2794,0.12700005 -0.3937,0.31749995 -0.3937,0.62229995 v 0.1524 c 0,0.3175 0.1143,0.508 0.3937,0.6223 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:'Museo Sans Rounded';-inkscape-font-specification:'Museo Sans Rounded';fill:#af40b8;fill-opacity:1;stroke-width:0.264583"
+         id="path855" />
     </g>
     <g
        aria-label="&gt;"
        id="text840"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.7556px;line-height:1.25;font-family:'Museo Sans Rounded';-inkscape-font-specification:'Museo Sans Rounded';fill:#af40b8;fill-opacity:1;stroke:none;stroke-width:0.264583">
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:'Museo Sans Rounded';-inkscape-font-specification:'Museo Sans Rounded';fill:#af40b8;fill-opacity:1;stroke:none;stroke-width:0.264583">
       <path
-         d="m 120.18895,5.570964 c 0,0.6124236 0.37536,0.8692464 0.94827,0.6124236 l 7.922,-3.5164968 c 0.43462,-0.1778004 0.63218,-0.4741344 0.63218,-0.9680244 V 1.4617992 c 0,-0.47413437 -0.19756,-0.77046837 -0.63218,-0.96802437 l -7.922,-3.51649683 c -0.57291,-0.2568228 -0.94827,0 -0.94827,0.6124236 v 0.4543788 c 0,0.4741344 0.19756,0.7704684 0.63218,0.9482688 l 6.20326,2.568228 v 0.039511 l -6.20326,2.568228 c -0.43462,0.1778004 -0.63218,0.4741344 -0.63218,0.9482688 z"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.7556px;font-family:'Museo Sans Rounded';-inkscape-font-specification:'Museo Sans Rounded';stroke-width:0.264583;fill:#af40b8;fill-opacity:1"
+         d="m 74.653831,4.3142806 c 0,0.3937 0.2413,0.5588 0.6096,0.3937 l 5.0927,-2.2605999 c 0.2794,-0.1143 0.4064,-0.3048 0.4064,-0.6223 v -0.1524 c 0,-0.3048 -0.127,-0.4953 -0.4064,-0.6223 l -5.0927,-2.2606 c -0.3683,-0.1651 -0.6096,0 -0.6096,0.39370002 v 0.2921 c 0,0.30479999 0.127,0.49529999 0.4064,0.60959999 l 3.9878,1.65099999 v 0.0254 l -3.9878,1.651 c -0.2794,0.1143 -0.4064,0.3048 -0.4064,0.6095999 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:'Museo Sans Rounded';-inkscape-font-specification:'Museo Sans Rounded';fill:#af40b8;fill-opacity:1;stroke-width:0.264583"
          id="path858" />
     </g>
   </g>
