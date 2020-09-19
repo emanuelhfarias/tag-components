@@ -1,6 +1,15 @@
 module.exports = {
-  someSidebar: {
-    Introduction: ['doc1', 'doc2', 'doc3'],
-    "Community Components": ['mdx']
-  },
+  Introduction: [
+    'introduction',
+    'proposal',
+    {
+      type: "category",
+      label: "Community Components",
+      items: [
+        'components/alert-box',
+      ],
+      collapsed: false
+    },
+    'contribute',
+  ]
 };

@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Tag Components',
   tagline: 'aa',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://github.com/emanuelhfarias/declarative-custom-elements',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
@@ -13,7 +13,14 @@ module.exports = {
         alt: 'Tag Components',
         src: 'img/logo.svg',
       },
-      items: [],
+      items: [
+        {
+          href: "https://github.com/emanuelhfarias/declarative-custom-elements",
+          position: "right",
+          className: 'header-github-link',
+          'aria-label': 'GitHub repository'
+        }
+      ],
     },
     footer: {
       style: 'dark',
