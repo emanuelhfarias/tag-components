@@ -24,6 +24,19 @@ Image you can define a web component like this:
 ```
 
 ### Result:
-<awesome-alert>awesome box!</awesome-alert>
 
-Awesome!
+export const Example = () => (
+  <span>
+    <component name="awesome-alert" extends="p">
+      <style>
+      </style>
+    </component>
+    <awesome-alert>a</awesome-alert>
+  </span>
+);
+
+<Example />
+
+This is great because we can change `p` style without affecting `p` style outside of the component.
+Also, we do not need javascript to register custom elements. Of course, since this project uses
+a polyfill to support `<component>` JS is required.
