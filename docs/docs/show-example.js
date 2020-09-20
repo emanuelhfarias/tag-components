@@ -1,6 +1,8 @@
 import React from 'react';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Highlight, {defaultProps} from 'prism-react-renderer'
+import theme from 'prism-react-renderer/themes/oceanicNext';
+// import theme from 'prism-react-renderer/themes/palenight';
 
 export default function ShowExample({ file }) {
   const { siteConfig } = useDocusaurusContext();
@@ -8,6 +10,7 @@ export default function ShowExample({ file }) {
   return (
     <Highlight
       {...defaultProps}
+      theme={theme}
       code={siteConfig.customFields.componentsSources[file]}
       language="html"
     >
