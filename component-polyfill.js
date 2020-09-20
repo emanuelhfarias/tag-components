@@ -1,23 +1,25 @@
 "use strict";
 
-(function() {
+function registerComponents () {
+  let components = document.getElementsByTagName("component");
 
-  document.addEventListener("DOMContentLoaded", function(event) {
-    let components = document.getElementsByTagName("component");
-
-    Array.from(components).forEach((component) => {
-       register(component)
-    })
-  });
+  Array.from(components).forEach((component) => {
+    register(component)
+  })
 
   function register(component) {
+    let componentName = component.getAttribute('name');
+
+    if (!componentName) {
+      console.warning('components must have a name attribute');
+      return;
+    }
+
     registerTemplate(component);
     registerRootElement(component);
     registerStyle(component);
 
-   let componentName = component.getAttribute("name");
-
-    if (componentName) {
+    if (customElements.get(componentName) === undefined) {
       customElements.define(componentName, baseHtmlElementClass(component));
     }
   }
@@ -79,5 +81,12 @@
       }
     }
   }
+}
 
-})();
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = registerComponents;
+}
+
+document.addEventListener("DOMContentLoaded", function(event) {
+  registerComponents();
+});

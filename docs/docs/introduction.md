@@ -8,7 +8,7 @@ custom_edit_url: null
 This project is an experiment to define web components in a declarative way.
 It introduces the new tag `<component>` to HTML.
 
-Image you can define a web component like this:
+Imagine you can define a web component like this:
 ```html
 <component name="awesome-alert" extends="p">
   <style>
@@ -25,17 +25,9 @@ Image you can define a web component like this:
 
 ### Result:
 
-export const Example = () => (
-  <span>
-    <component name="awesome-alert" extends="p">
-      <style>
-      </style>
-    </component>
-    <awesome-alert>a</awesome-alert>
-  </span>
-);
+import LoadExample from './load-example'
 
-<Example />
+<LoadExample file="awesome-alert.html" />
 
 This is great because we can change `p` style without affecting `p` style outside of the component.
 Also, we do not need javascript to register custom elements. Of course, since this project uses

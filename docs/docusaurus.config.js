@@ -1,3 +1,12 @@
+const path = require('path');
+const fs = require('fs');
+
+componentsSources = {};
+
+fs.readdirSync(path.resolve(__dirname, 'docs/components-sources')).forEach((file) => {
+  componentsSources[file] = fs.readFileSync(path.resolve(__dirname, 'docs/components-sources/' + file), 'utf8');
+});
+
 module.exports = {
   title: 'Tag Components',
   tagline: 'Experimental polyfill for the component tag',
@@ -47,4 +56,7 @@ module.exports = {
       },
     ],
   ],
+  customFields: {
+    componentsSources
+  }
 };
