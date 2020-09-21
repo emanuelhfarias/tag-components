@@ -34,6 +34,13 @@
 
     function registerRootElement(component) {
       let extendsElement = component.getAttribute('extends');
+      let componentName = component.getAttribute('name');
+
+      if (componentName === extendsElement) {
+        console.warn("components can't inherit from itself.");
+        return;
+      }
+
       let template = component.getElementsByTagName('template');
       if (template[0].content.firstElementChild === null) {
         let slot = document.createElement('slot');
