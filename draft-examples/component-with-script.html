@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Component with script</title>
+  <link rel="icon" href="data:image/png;base64,iVBORw0KGgo="> <!-- Fake favicon -->
+  <script src="../component-polyfill.js"></script>
+</head>
+<body>
+
+  <component name="my-title" extends="h1">
+    <style>
+      h1 {
+        background-color: rgb(145, 64, 64);
+      }
+    </style>
+
+    <script>
+      class MyClass extends HTMLElement {
+        connectedCallback() { }
+      }
+    </script>
+  </component>
+
+  <my-title>my-title component</my-title>
+
+</body>
+</html>

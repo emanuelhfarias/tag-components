@@ -12,7 +12,7 @@
       let componentName = component.getAttribute('name');
 
       if (!componentName) {
-        console.warning('components must have a name attribute');
+        console.warn('components must have a name attribute');
         return;
       }
 
@@ -20,8 +20,17 @@
       registerRootElement(component);
       registerStyle(component);
 
+      let scriptTag = component.getElementsByTagName('script');
+
       if (customElements.get(componentName) === undefined) {
-        customElements.define(componentName, baseHtmlElementClass(component));
+        if (scriptTag.length > 0) {
+          //let className = scriptTag[0].text.split('class')[1].split('{')[0].split(' ')[1]
+          //let componentClass = eval(className);
+          // TODO: don't use eval
+          customElements.define(componentName, baseHtmlElementClass(component, eval(`(${scriptTag[0].text.trim()})`)));
+        } else {
+          customElements.define(componentName, baseHtmlElementClass(component));
+        }
       }
     }
 
@@ -62,22 +71,22 @@
       }
     }
 
-    function baseHtmlElementClass (component) {
-      return class extends HTMLElement {
+    function baseHtmlElementClass (component, componentsClass) {
+      if (!componentsClass) componentsClass = HTMLElement;
+
+      return class extends componentsClass {
         constructor(...args) {
           const self = super(...args);
+
           let template = component.getElementsByTagName('template')[0];
           if (template) {
             let templateContent = template.content;
             const shadowRoot = this.attachShadow({mode: 'open'}).appendChild(templateContent.cloneNode(true));
           }
 
-          //let script = component.getElementsByTagName('script')[0];
-          return self;
-        }
-
-        connectedCallback() {
           this.propagateAttributes()
+
+          return self;
         }
 
         propagateAttributes() {
