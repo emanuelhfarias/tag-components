@@ -24,8 +24,6 @@
 
       if (customElements.get(componentName) === undefined) {
         if (scriptTag.length > 0) {
-          //let className = scriptTag[0].text.split('class')[1].split('{')[0].split(' ')[1]
-          //let componentClass = eval(className);
           // TODO: don't use eval
           customElements.define(componentName, baseHtmlElementClass(component, eval(`(${scriptTag[0].text.trim()})`)));
         } else {
