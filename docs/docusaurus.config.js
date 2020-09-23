@@ -7,10 +7,12 @@ fs.readdirSync(path.resolve(__dirname, 'docs/components-sources')).forEach((file
   componentsSources[file] = fs.readFileSync(path.resolve(__dirname, 'docs/components-sources/' + file), 'utf8');
 });
 
+const repo = 'https://github.com/emanuelhfarias/tag-components';
+
 module.exports = {
   title: 'Tag Components',
   tagline: 'Experimental polyfill for the component tag',
-  url: 'https://github.com/emanuelhfarias/declarative-custom-elements',
+  url: 'https://tag-components.vercel.app/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
@@ -28,7 +30,7 @@ module.exports = {
       },
       items: [
         {
-          href: "https://github.com/emanuelhfarias/declarative-custom-elements",
+          href: repo,
           position: "right",
           className: 'header-github-link',
           'aria-label': 'GitHub repository'
@@ -37,7 +39,7 @@ module.exports = {
     },
     footer: {
       style: 'dark',
-      copyright: `See project on <a href="https://github.com/emanuelhfarias/declarative-custom-elements" target="_blank">GitHub</a>`,
+      copyright: `See project on <a href="${repo}" target="_blank">GitHub</a>`,
     },
   },
   presets: [
@@ -47,8 +49,7 @@ module.exports = {
         docs: {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl:
-            'https://github.com/emanuelhfarias/declarative-custom-elements',
+          editUrl: repo,
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
