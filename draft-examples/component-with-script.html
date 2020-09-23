@@ -17,13 +17,22 @@
     </style>
 
     <script>
-      class MyClass extends HTMLElement {
-        connectedCallback() { }
+      class MyTitle extends HTMLElement {
+        connectedCallback() {
+          this.h1 = this.shadowRoot.querySelector('h1')
+          this.h1.addEventListener('click', this.change)
+        }
+
+        change = () => {
+          this.h1.innerText = this.getAttribute('name')
+          this.h1.style.backgroundColor = 'green'
+          this.h1.style.padding = '10px'
+        }
       }
     </script>
   </component>
 
-  <my-title>my-title component</my-title>
+  <my-title name="good!">Click me</my-title>
 
 </body>
 </html>
