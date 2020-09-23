@@ -100,9 +100,9 @@
 
   if (typeof module !== 'undefined' && module.exports) {
     module.exports = registerComponents;
+  } else {
+    document.addEventListener("DOMContentLoaded", function(event) {
+      registerComponents();
+    });
   }
-
-  document.addEventListener("DOMContentLoaded", function(event) {
-    registerComponents();
-  });
 })()
