@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Component with script</title>
+  <link rel="icon" href="data:image/png;base64,iVBORw0KGgo="> <!-- Fake favicon -->
+  <script src="../component-polyfill.js"></script>
+</head>
+<body>
+
+  <component name="my-title" extends="h1">
+    <style>
+      h1 {
+        background-color: rgb(145, 64, 64);
+      }
+    </style>
+
+    <script>
+      class MyTitle extends HTMLElement {
+        connectedCallback() {
+          this.h1 = this.shadowRoot.querySelector('h1')
+          this.h1.addEventListener('click', this.change)
+        }
+
+        change = () => {
+          this.h1.innerText = this.getAttribute('name')
+          this.h1.style.backgroundColor = 'green'
+          this.h1.style.padding = '10px'
+        }
+      }
+    </script>
+  </component>
+
+  <my-title name="good!">Click me</my-title>
+  <my-title name="bye!">Click me</my-title>
+
+</body>
+</html>

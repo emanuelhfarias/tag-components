@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="data:image/png;base64,iVBORw0KGgo="> <!-- Fake favicon -->
+  <title>Calling 100 different components</title>
+  <script src="../component-polyfill.js"></script>
+  <style>
+    div { height: 10px; width: 10px; display: inline-block; background-color: yellow; }
+  </style>
+</head>
+<body>
+
+  <component name="my-box0" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box1" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box2" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box3" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box4" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box5" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box6" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box7" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box8" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box9" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box10" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box11" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box12" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box13" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box14" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box15" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box16" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box17" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box18" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box19" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box20" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box21" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box22" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box23" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box24" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box25" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box26" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box27" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box28" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box29" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box30" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box31" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box32" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box33" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box34" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box35" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box36" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box37" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box38" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box39" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box40" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box41" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box42" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box43" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box44" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box45" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box46" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box47" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box48" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box49" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box50" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box51" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box52" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box53" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box54" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box55" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box56" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box57" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box58" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box59" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box60" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box61" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box62" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box63" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box64" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box65" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box66" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box67" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box68" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box69" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box70" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box71" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box72" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box73" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box74" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box75" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box76" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box77" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box78" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box79" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box80" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box81" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box82" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box83" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box84" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box85" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box86" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box87" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box88" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box89" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box90" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box91" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box92" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box93" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box94" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box95" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box96" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box97" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box98" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box99" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+  <component name="my-box100" extends="div"><style>div { height: 10px; width: 10px; display: inline-block; background-color: blue; }</style></component>
+
+  <my-box0></my-box0>
+  <my-box1></my-box1>
+  <my-box2></my-box2>
+  <my-box3></my-box3>
+  <my-box4></my-box4>
+  <my-box5></my-box5>
+  <my-box6></my-box6>
+  <my-box7></my-box7>
+  <my-box8></my-box8>
+  <my-box9></my-box9>
+  <my-box10></my-box10>
+  <my-box11></my-box11>
+  <my-box12></my-box12>
+  <my-box13></my-box13>
+  <my-box14></my-box14>
+  <my-box15></my-box15>
+  <my-box16></my-box16>
+  <my-box17></my-box17>
+  <my-box18></my-box18>
+  <my-box19></my-box19>
+  <my-box20></my-box20>
+  <my-box21></my-box21>
+  <my-box22></my-box22>
+  <my-box23></my-box23>
+  <my-box24></my-box24>
+  <my-box25></my-box25>
+  <my-box26></my-box26>
+  <my-box27></my-box27>
+  <my-box28></my-box28>
+  <my-box29></my-box29>
+  <my-box30></my-box30>
+  <my-box31></my-box31>
+  <my-box32></my-box32>
+  <my-box33></my-box33>
+  <my-box34></my-box34>
+  <my-box35></my-box35>
+  <my-box36></my-box36>
+  <my-box37></my-box37>
+  <my-box38></my-box38>
+  <my-box39></my-box39>
+  <my-box40></my-box40>
+  <my-box41></my-box41>
+  <my-box42></my-box42>
+  <my-box43></my-box43>
+  <my-box44></my-box44>
+  <my-box45></my-box45>
+  <my-box46></my-box46>
+  <my-box47></my-box47>
+  <my-box48></my-box48>
+  <my-box49></my-box49>
+  <my-box50></my-box50>
+  <my-box51></my-box51>
+  <my-box52></my-box52>
+  <my-box53></my-box53>
+  <my-box54></my-box54>
+  <my-box55></my-box55>
+  <my-box56></my-box56>
+  <my-box57></my-box57>
+  <my-box58></my-box58>
+  <my-box59></my-box59>
+  <my-box60></my-box60>
+  <my-box61></my-box61>
+  <my-box62></my-box62>
+  <my-box63></my-box63>
+  <my-box64></my-box64>
+  <my-box65></my-box65>
+  <my-box66></my-box66>
+  <my-box67></my-box67>
+  <my-box68></my-box68>
+  <my-box69></my-box69>
+  <my-box70></my-box70>
+  <my-box71></my-box71>
+  <my-box72></my-box72>
+  <my-box73></my-box73>
+  <my-box74></my-box74>
+  <my-box75></my-box75>
+  <my-box76></my-box76>
+  <my-box77></my-box77>
+  <my-box78></my-box78>
+  <my-box79></my-box79>
+  <my-box80></my-box80>
+  <my-box81></my-box81>
+  <my-box82></my-box82>
+  <my-box83></my-box83>
+  <my-box84></my-box84>
+  <my-box85></my-box85>
+  <my-box86></my-box86>
+  <my-box87></my-box87>
+  <my-box88></my-box88>
+  <my-box89></my-box89>
+  <my-box90></my-box90>
+  <my-box91></my-box91>
+  <my-box92></my-box92>
+  <my-box93></my-box93>
+  <my-box94></my-box94>
+  <my-box95></my-box95>
+  <my-box96></my-box96>
+  <my-box97></my-box97>
+  <my-box98></my-box98>
+  <my-box99></my-box99>
+  <my-box100></my-box100>
+
+</body>
+</html>

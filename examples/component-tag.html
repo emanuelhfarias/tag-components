@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Defining a Custom Element - the new way</title>
+  <script src="../component-polyfill.js"></script>
+</head>
+<body>
+
+  <component name="my-alert">
+    <template>
+      <p>
+        <slot />
+      </p>
+
+      <style>
+        p {
+          color: white;
+          background-color: #666;
+          padding: 5px;
+        }
+      </style>
+    </template>
+  </component>
+
+  <component name="my-title">
+    <template>
+      <h1>
+        <slot />
+      </h1>
+
+      <style>
+        h1 {
+          background-color: rgb(145, 64, 64);
+        }
+      </style>
+    </template>
+  </component>
+
+  <my-alert>my-alert component</my-alert>
+
+  <my-title>my-title component</my-title>
+
+  <p>default p is not affected</p>
+
+  <h1>default h1 is not affected</h1>
+
+</body>
+</html>

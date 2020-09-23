@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nested Components</title>
+  <script src="../component-polyfill.js"></script>
+</head>
+<body>
+
+  <component name="green-box" extends="p">
+    <template>
+      <p>
+        <authors-name>
+          <slot />
+        </authors-name>
+      </p>
+    </template>
+
+    <style>
+      p {
+        color: white;
+        background-color: green;
+        width: 50rem;
+        height: 20rem;
+      }
+    </style>
+  </component>
+
+  <component name="authors-name" extends="h2">
+    <style>
+      h2 { color: black }
+    </style>
+  </component>
+
+  <green-box>Awesome</green-box>
+
+</body>
+</html>

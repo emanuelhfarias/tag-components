@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="data:image/png;base64,iVBORw0KGgo="> <!-- Fake favicon -->
+  <title>Defining a Custom Element - the new way</title>
+  <script src="../component-polyfill.js"></script>
+</head>
+<body>
+
+  <component name="my-alert" extends="p">
+    <template>
+      <p>
+        <slot />
+      </p>
+    </template>
+
+    <style>
+      p {
+        color: white;
+        background-color: #666;
+        padding: 5px;
+      }
+
+      p[test="5"] {
+        background-color: black;
+      }
+    </style>
+  </component>
+
+  <my-alert test="5">propagating attributes 1</my-alert>
+
+
+  <component name="my-alert2" extends="p">
+    <style>
+      p {
+        color: white;
+        background-color: #666;
+        padding: 5px;
+      }
+
+      p[test="5"] {
+        background-color: black;
+      }
+    </style>
+  </component>
+
+  <my-alert2 test="5">propagating attributes 2</my-alert2>
+
+</body>
+</html>
