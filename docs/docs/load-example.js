@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 
-const registerComponents = require('../../component-polyfill');
+const registerComponents = require('tag-components');
 
 export default function LoadExample({ file }) {
   const { siteConfig } = useDocusaurusContext();
