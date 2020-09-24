@@ -1,0 +1,28 @@
+{
+  "name": "tag-components",
+  "version": "0.1.0",
+  "description": "declarative web components",
+  "main": "component-polyfill.js",
+  "directories": {
+    "doc": "docs",
+    "example": "examples",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emanuelhfarias/tag-components.git"
+  },
+  "keywords": [
+    "tag",
+    "components"
+  ],
+  "author": "Emanuel H. Farias",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emanuelhfarias/tag-components/issues"
+  },
+  "homepage": "https://github.com/emanuelhfarias/tag-components#readme"
+}
