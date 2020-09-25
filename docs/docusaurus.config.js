@@ -20,6 +20,9 @@ module.exports = {
   projectName: 'tag-components',
   scripts: [],
   themeConfig: {
+    prism: {
+      theme: require('prism-react-renderer/themes/oceanicNext'),
+    },
     colorMode: {
       disableSwitch: true
     },
