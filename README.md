@@ -6,6 +6,15 @@ This project is an experiment to define web components in a declarative way. It 
 Just add this script tag in the `<head>` of your HMTL, like this:
 ```html
  <head>
-   <script src="https://cdn.jsdelivr.net/gh/emanuelhfarias/tag-components/component-polyfill.js"></script>
+   <script src="https://unpkg.com/tag-components@0.1.2/component-polyfill.js"></script>
  </head>
+```
+
+If you want to import in a JS file, install package from npm:
+```sh
+$ yarn add tag-components
+```
+then
+```javascript
+const registerComponents = require('tag-components');
 ```
