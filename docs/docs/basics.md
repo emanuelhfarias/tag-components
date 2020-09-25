@@ -1,0 +1,59 @@
+---
+id: basics
+title: Basics
+custom_edit_url: null
+---
+
+import useBaseUrl from '@docusaurus/useBaseUrl';
+import ShowExample from './show-example'
+import LoadExample from './load-example'
+
+The most basic component is:
+
+```html
+  <component name="my-element"></component>
+```
+
+We must define a name, that's it.
+
+Then you can call it:
+
+```html
+<my-element>Hello!</my-element>
+```
+
+### Result
+<img alt="Docusaurus with Keytar" src={useBaseUrl('img/basics-dom-example.png')} />
+
+Examining DOM we can see that has been added inside `<component>` the `<template>` tag with an empty `<slot>`.
+When we call the custom element it has been attached a Shadow Root element. Also, every content inside
+`<my-element>..</my-element>` will be placed in the `<slot>` location.
+
+The `document-fragment` means that this component is isolated and you can change styles inside and won't affect other elements outside this component.
+
+Until now all components that we define have a name with a dash, which leads us to
+
+### Naming convetions
+
+The recomendation is to use **kebab-case** for naming components with at least two words.
+Altought it will work with only one word, HTML can one day make this tag official and you will have a naming conflict.
+
+### Template
+
+Let's give our component a template:
+
+<ShowExample file="basic-template-example.html" />
+
+<LoadExample file="basic-template-example.html" />
+
+<br /><br />
+
+PS: the **slot** is not required to present in the template.
+
+### Style
+
+And now some style:
+
+<ShowExample file="basic-template-example-styled.html" />
+
+<LoadExample file="basic-template-example-styled.html" />

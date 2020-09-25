@@ -52,3 +52,5 @@ Are you interesting in using this? Just add this Polyfill in the `<head>` of you
   <script src="https://unpkg.com/tag-components@0.1.2/component-polyfill.js"></script>
  </head>
 ```
+
+PS: we will use the words `components` and `custom elements` interchangeably in this website.

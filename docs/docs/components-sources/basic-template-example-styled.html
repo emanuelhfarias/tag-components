@@ -1,0 +1,19 @@
+<component name="country-chooser">
+  <template>
+    <select>
+      <option value="" selected><slot /></option>
+      <option value="Brazil">Brazil</option>
+      <option value="Italy">Italy</option>
+      <option value="Turkey">Turkey</option>
+    </select>
+  </template>
+
+  <style>
+    select {
+      padding: 0.3rem;
+      border: 1px solid #666;
+    }
+  </style>
+</component>
+
+<country-chooser>Choose a country:</country-chooser>

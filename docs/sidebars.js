@@ -1,10 +1,11 @@
 module.exports = {
   Introduction: [
     'introduction',
-    'proposal',
+    'basics',
     'propagating-attributes',
     'inheritance',
     'naming-components',
+    'proposal',
     {
       type: "category",
       label: "Community Components",
