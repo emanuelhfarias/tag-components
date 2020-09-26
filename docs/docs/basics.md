@@ -56,7 +56,7 @@ And now some style:
 <component name="country-chooser">
   <template>
     <select>
-      <option value="" selected>choose a drink</option>
+      <option value="" selected>pick a drink</option>
       <option value="caipirinha">🍹 Caipirinha</option>
       <option value="martini">🍸 Dry Martini</option>
       <option value="wine">🍷 Wine</option>
