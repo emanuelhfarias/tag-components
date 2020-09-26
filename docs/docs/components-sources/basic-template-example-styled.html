@@ -1,19 +1,29 @@
-<component name="country-chooser">
+<component name="country-chooser2">
   <template>
     <select>
-      <option value="" selected><slot /></option>
-      <option value="Brazil">Brazil</option>
-      <option value="Italy">Italy</option>
-      <option value="Turkey">Turkey</option>
+      <option value="" selected>choose a drink</option>
+      <option value="caipirinha">🍹 Caipirinha</option>
+      <option value="martini">🍸 Dry Martini</option>
+      <option value="wine">🍷 Wine</option>
     </select>
   </template>
 
   <style>
     select {
-      padding: 0.3rem;
-      border: 1px solid #666;
+      -webkit-appearance: none;
+      padding: 0.4rem;
+      outline: none;
+      border: none;
+      border-radius: 0;
+      border-bottom: 2px solid #922921;
+    }
+
+    select, option {
+      font-size: 16px;
+      background-color: #c13329;
+      color: white;
     }
   </style>
 </component>
 
-<country-chooser>Choose a country:</country-chooser>
+<country-chooser2></country-chooser>

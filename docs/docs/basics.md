@@ -54,6 +54,36 @@ PS: the **slot** is not required to present in the template.
 
 And now some style:
 
-<ShowExample file="basic-template-example-styled.html" />
+```html
+<component name="country-chooser">
+  <template>
+    <select>
+      <option value="" selected>choose a drink</option>
+      <option value="caipirinha">🍹 Caipirinha</option>
+      <option value="martini">🍸 Dry Martini</option>
+      <option value="wine">🍷 Wine</option>
+    </select>
+  </template>
+
+  <style>
+    select {
+      -webkit-appearance: none;
+      padding: 0.4rem;
+      outline: none;
+      border: none;
+      border-radius: 0;
+      border-bottom: 2px solid #922921;
+    }
+
+    select, option {
+      font-size: 16px;
+      background-color: #c13329;
+      color: white;
+    }
+  </style>
+</component>
+
+<country-chooser></country-chooser>
+```
 
 <LoadExample file="basic-template-example-styled.html" />
