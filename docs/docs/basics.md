@@ -48,8 +48,6 @@ Let's give our component a template:
 
 <br /><br />
 
-PS: the **slot** is not required to present in the template.
-
 ### Style
 
 And now some style:
