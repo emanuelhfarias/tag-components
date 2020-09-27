@@ -85,3 +85,31 @@ And now some style:
 ```
 
 <LoadExample file="basic-template-example-styled.html" />
+
+### Slots
+
+The `<slot>` element gives user a way to customize an already existing custom element
+by passing content that will replace the slot node in components node tree.
+
+<ShowExample file="submit-button.html" />
+
+<LoadExample file="submit-button.html" />
+
+The example below shows a button with the text being passed.
+Slots can accept any element, if fact, you can pass a tree of elemetns.
+
+#### Named Slots
+TODO
+
+#### Slots fallback
+
+If you don't specify content when calling the component, it will assume the content that is already on slot.
+
+<ShowExample file="submit-button-fallback.html" />
+
+<LoadExample file="submit-button-fallback.html" />
+
+#### Slots Caveats
+
+Not all elements can be slotted, for exemple, the `<option>` element cannot be slotted with any node tree,
+it only accept text.
