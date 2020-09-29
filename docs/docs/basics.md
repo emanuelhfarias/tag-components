@@ -95,11 +95,10 @@ by passing content that will replace the slot node in components node tree.
 
 <LoadExample file="submit-button.html" />
 
-The example below shows a button with the text being passed.
-Slots can accept any element, if fact, you can pass a tree of elemetns.
+<br /><br />
 
-#### Named Slots
-TODO
+The example shows a button with the text being passed.
+Slots can accept any element, if fact, you can pass a tree of elements.
 
 #### Slots fallback
 
@@ -109,7 +108,15 @@ If you don't specify content when calling the component, it will assume the cont
 
 <LoadExample file="submit-button-fallback.html" />
 
+#### Named Slots
+
+Sometimes you want to leave more slots on your component's template to give user more flexibility.
+You can do this by giving slots a name. See the example.
+
+<ShowExample file="named-slots.html" />
+
+<LoadExample file="named-slots.html" />
+
 #### Slots Caveats
 
-Not all elements can be slotted, for exemple, the `<option>` element cannot be slotted with any node tree,
-it only accept text.
+Not all elements can be slotted with any node tree, for exemple, the `<option>` only accept text.

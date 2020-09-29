@@ -1,0 +1,22 @@
+<component name="button-icon">
+  <template>
+    <button type="submit">
+      <slot name="icon"></slot>
+      <slot name="title">default button text</slot>
+    </button>
+  </template>
+
+  <style>
+    slot[name="icon"] { font-size: 20px; }
+  </style>
+</component>
+
+<button-icon>
+  <i slot="icon">🍵</i>
+  <span slot="title">hot beverage</span>
+</button-icon>
+
+<button-icon>
+  <i slot="icon">🍪</i>
+  <span slot="title">cookie!</span>
+</button-icon>
