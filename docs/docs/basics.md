@@ -120,3 +120,19 @@ You can do this by giving slots a name. See the example.
 #### Slots Caveats
 
 Not all elements can be slotted with any node tree, for exemple, the `<option>` only accept text.
+
+### Extends
+
+The `extends` is an attribute of `<component>`. It sets the root element of Shadow Tree.
+The following example shows a list of items.
+Since we didn't specified the `<template>` the `<ul>` tag will be the root of shadow tree.
+I suggest you to inspect the DOM to understand what's going on.
+
+<ShowExample file="authors-list.html" />
+
+<LoadExample file="authors-list.html" />
+
+You can think `extends` as a start point for your component. See `<authors-list>` as if it were `<ul>`.
+It is useful to styling the main element.
+
+

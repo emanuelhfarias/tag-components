@@ -1,0 +1,20 @@
+<component name="authors-list" extends="ul">
+  <style>
+    ul {
+      border: 2px solid #1d3557;
+      max-width: 200px;
+      padding: 0px;
+    }
+    ::slotted(li) {
+      list-style-type: none;
+      background-color: #a8dadc;
+    }
+    ::slotted(li:hover) { background-color: #e63946; }
+  </style>
+</component>
+
+<authors-list>
+  <li>Linus Torvalds</li>
+  <li>Richard Stallman</li>
+  <li>Yukihiro Matsumoto</li>
+</authors-list>
