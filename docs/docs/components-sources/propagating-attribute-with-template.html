@@ -1,0 +1,25 @@
+<component name="my-alert">
+  <template>
+    <p super>
+      <slot />
+    </p>
+  </template>
+
+  <style>
+    p {
+      background-color: #eae2b7;
+      color: #FFF;
+      padding: 10px;
+    }
+    p[super] {
+      background-color: #6B4E71;
+    }
+    p[success] {
+      font-weight: bold;
+      box-shadow: 0 0px 10px 6px #9ecaed;
+    }
+  </style>
+</component>
+
+<my-alert>native</my-alert>
+<my-alert success>propagating attributes</my-alert>
