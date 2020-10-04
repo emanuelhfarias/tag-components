@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useLayoutEffect } from 'react'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 
 const registerComponents = require('tag-components');
@@ -6,7 +6,7 @@ const registerComponents = require('tag-components');
 export default function LoadExample({ file }) {
   const { siteConfig } = useDocusaurusContext();
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     registerComponents()
   })
 
