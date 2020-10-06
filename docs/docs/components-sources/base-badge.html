@@ -1,0 +1,29 @@
+<component name="base-badge">
+  <template>
+    <span>
+      <slot name="span-slot" /><slot/></slot>
+    </span>
+  </template>
+
+  <style>
+    span {
+      display: inline-block;
+      padding: .45em .6em;
+      font-size: 75%;
+      font-weight: 700;
+      line-height: 1.5;
+      text-align: center;
+      white-space: nowrap;
+      vertical-align: baseline;
+      font-family: Roboto, "Helvetica Neue", Arial;
+      padding-bottom: .2em;
+      padding-right: .6em;
+      padding-left: .6em;
+      border-radius: 10rem;
+      color: #FFF;
+      background-color: #007bff;
+    }
+  </style>
+</component>
+
+<base-badge>your label</base-badge>
