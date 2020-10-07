@@ -14,5 +14,6 @@ module.exports = {
       collapsed: false
     },
     'contribute',
+    'known-issues',
   ]
 };
