@@ -1,6 +1,6 @@
 ---
 id: alert-box
-title: Alert Box
+title: Callout
 custom_edit_url: null
 ---
 
