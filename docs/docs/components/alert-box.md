@@ -4,4 +4,11 @@ title: Alert Box
 custom_edit_url: null
 ---
 
-Alert Box
+import LoadExample from '../load-example'
+import ShowExample from '../show-example'
+
+<ShowExample file="alert-box.html" />
+
+### Result:
+
+<LoadExample file="alert-box.html" />

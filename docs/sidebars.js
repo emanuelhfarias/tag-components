@@ -4,7 +4,6 @@ module.exports = {
     'basics',
     'propagating-attributes',
     'inheritance',
-    'naming-components',
     'proposal',
     {
       type: "category",
