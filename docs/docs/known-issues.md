@@ -4,11 +4,13 @@ title: Known Issues
 custom_edit_url: null
 ---
 
-The polyfill has two issues:
+The polyfill has three issues:
 
 * Flickering while components have not been registered;
 
 * Maximum call stack size exceeds when the component call itself (component inception);
+
+* usage of `eval()` to load the component's **class** from `<script>` (security concern).
 
 ### Inception example
 
