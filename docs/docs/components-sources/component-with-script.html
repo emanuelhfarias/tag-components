@@ -1,0 +1,26 @@
+<component name="my-title" extends="h1">
+  <style>
+    h1 {
+      background-color: rgb(145, 64, 64);
+      padding: 10px;
+      border-radius: 8px;
+    }
+  </style>
+
+  <script>
+    class MyTitle extends HTMLElement {
+      connectedCallback() {
+        this.h1 = this.shadowRoot.querySelector('h1')
+        this.h1.addEventListener('click', this.change)
+      }
+
+      change = () => {
+        this.h1.innerText = this.getAttribute('new-text')
+        this.h1.style.backgroundColor = 'green'
+      }
+    }
+  </script>
+</component>
+
+<my-title new-text="good!">Click me</my-title>
+<my-title new-text="bye!">Click me</my-title>
