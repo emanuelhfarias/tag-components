@@ -3,6 +3,7 @@ id: introduction
 title: Introduction
 slug: /
 custom_edit_url: null
+hide_table_of_contents: true
 ---
 
 This project is an experiment to define web components in a declarative way.

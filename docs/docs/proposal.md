@@ -2,6 +2,7 @@
 id: proposal
 title: Proposal
 custom_edit_url: null
+hide_table_of_contents: true
 ---
 
 ### Problem

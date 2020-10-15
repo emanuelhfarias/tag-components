@@ -2,6 +2,7 @@
 id: inheritance
 title: Inheritance
 custom_edit_url: null
+hide_table_of_contents: true
 ---
 
 import LoadExample from './load-example'

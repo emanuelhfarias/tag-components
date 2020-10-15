@@ -2,6 +2,7 @@
 id: contribute
 title: Contribute
 custom_edit_url: null
+hide_table_of_contents: true
 ---
 
 The easiest way to contribute is to improve the website content.
