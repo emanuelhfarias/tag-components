@@ -66,7 +66,8 @@ class extends componentsClass {
     let template = component.getElementsByTagName('template')[0];
     if (template) {
       let templateContent = template.content;
-      const shadowRoot = this.attachShadow({mode: 'open'}).appendChild(templateContent.cloneNode(true));
+      const shadowRoot = this.attachShadow({mode: 'open'})
+                             .appendChild(templateContent.cloneNode(true));
     }
 
     this.propagateAttributes()
