@@ -31,14 +31,7 @@ module.exports = {
         alt: 'Tag Components',
         src: 'img/logo.svg',
       },
-      items: [
-        {
-          href: repo,
-          position: "right",
-          className: 'header-github-link',
-          'aria-label': 'GitHub repository'
-        }
-      ],
+      items: [],
     },
     footer: {
       style: 'dark',
