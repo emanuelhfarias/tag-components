@@ -23,24 +23,14 @@ import LoadExample from './load-example'
 
 The example above shows us:
 1. we can declarative define a new custom element using `<component>` tag;
-2. extends attribute means that the root element of Shadow Tree will be a `p` element;
-3. we can style elements inside a component without affecting it outside of the component.
+2. we can style elements inside a component without affecting the same elements outside.
+3. we can inherit template and styles from other elements using `extends` attribute.
 
 That's great because now we can create small components just for styling pourpose.
-Reducing CSS classes from elements turns our templates much more readable. See the comparison:
-
-```html
-<alert-box success>message</alert-box>
-
-versus
-
-<div class="alert alert-success">message</div>
-```
-
 We can see this phenomenon in [style-components](https://styled-components.com) community. People are making small components
 just for styling pourpose and making templates more readable.
 
-`tag-components` are not just for slyling one element. In fact, it also support **template** and **script**, but none of them are required:
+`tag-components` are not just for slyling. In fact, it also support **template** and **script**, but none of them are required:
 
 <ShowExample file="component-structure.html" />
 
