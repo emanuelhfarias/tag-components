@@ -37,6 +37,10 @@ module.exports = {
       style: 'dark',
       copyright: `See project on <a href="${repo}" target="_blank">GitHub</a>`,
     },
+    googleAnalytics: {
+      trackingID: 'G-808KN05Y9F',
+      anonymizeIP: false,
+    }
   },
   presets: [
     [
@@ -55,5 +59,8 @@ module.exports = {
   ],
   customFields: {
     componentsSources
-  }
+  },
+  plugins: [
+    '@docusaurus/plugin-google-analytics',
+  ]
 };
