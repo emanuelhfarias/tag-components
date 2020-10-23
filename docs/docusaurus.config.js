@@ -40,7 +40,11 @@ module.exports = {
     googleAnalytics: {
       trackingID: 'G-808KN05Y9F',
       anonymizeIP: false,
-    }
+    },
+    gtag: {
+      trackingID: 'G-808KN05Y9F',
+      anonymizeIP: false,
+    },
   },
   presets: [
     [
