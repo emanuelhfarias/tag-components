@@ -59,8 +59,5 @@ module.exports = {
   ],
   customFields: {
     componentsSources
-  },
-  plugins: [
-    '@docusaurus/plugin-google-analytics',
-  ]
+  }
 };
